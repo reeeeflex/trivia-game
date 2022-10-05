@@ -57,13 +57,7 @@ ul li {
 }
 
 h1 {
-  color: #d6d3af;
-  text-shadow: 3px 2px #000;
-  position: absolute;
-  top: 20px;
-  right: 20px;
   font-size: 2rem;
-  text-align: center;
 }
 
 #retryBtn {
