@@ -1,4 +1,4 @@
-# trivia-game
+# Trivia-Game
 
 ---
 
