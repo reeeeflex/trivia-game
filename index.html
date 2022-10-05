@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trivia Game</title>
+  </head>
+  <body>
+    <!-- setting an inline css decoration to the Score H1 -->
+    <h1
+      id="score"
+      style="
+        color: #d6d3af;
+        text-shadow: 3px 2px #000;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+      "
+    >
+      Score: 0
+    </h1>
+
+    <div class="box" id="quiz">
+      <h2>Question Text Placeholder</h2>
+      <div class="item">
+        <ul>
+          <li>
+            <!-- creating an unordered list that takes html input (radio) and with a unique id to be later used in JS -->
+            <input type="radio" name="answer" id="a" />
+            <label for="a">answer text</label>
+          </li>
+          <li>
+            <input type="radio" name="answer" id="b" />
+            <label for="b">answer text</label>
+          </li>
+          <li>
+            <input type="radio" name="answer" id="c" />
+            <label for="c">answer text</label>
+          </li>
+          <li>
+            <input type="radio" name="answer" id="d" />
+            <label for="d">answer text</label>
+          </li>
+        </ul>
+      </div>
+      <!-- created a next button with id type SumbitBtn -->
+      <button id="submitBtn">Next</button>
+    </div>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
